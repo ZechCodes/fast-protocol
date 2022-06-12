@@ -1,5 +1,5 @@
 # fast-protocol
-A very simple Python model for declaring a protocol for checking if objects provide the desired functionality.
+A very simple Python module to declare protocols for checking if objects provide the desired interface.
 
 ## Installation
 ```shell

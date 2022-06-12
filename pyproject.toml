@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "fast-protocol"
+version = "1.0"
+description = "A very simple Python model for declaring a protocol for checking if objects provide the desired functionality."
+authors = ["Zech Zimmerman <hi@zech.codes>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ZechCodes/fast-protocol"
+repository = "https://github.com/ZechCodes/fast-protocol"
+documentation = "https://github.com/ZechCodes/fast-protocol"
+keywords = ["type", "protocol", "match", "checking", "interface"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+packages = [
+    { include = "fast_protocol.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
